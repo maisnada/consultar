@@ -7,7 +7,7 @@ module.exports = {
   testMatch: [
     "**/__tests__/**/*.test.ts",
   ],
-  collectCoverage: false,
+  collectCoverage: true,
   collectCoverageFrom: ['./src/**/*.ts'],
   coverageDirectory: "__tests__/coverage",
   coverageProvider: "v8",
