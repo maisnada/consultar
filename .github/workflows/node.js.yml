@@ -23,6 +23,8 @@ jobs:
     - name: npm install, make test-coverage
     - run: npm install 
     - run: npm test
+    
+    - name: lists
     - run: ls -lt 
 
     - name: Coveralls
