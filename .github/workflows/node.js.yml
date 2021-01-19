@@ -23,6 +23,7 @@ jobs:
 
     - name: Coveralls
       uses: coverallsapp/github-action@master
+      path-to-lcov: ./__tests__/coverage/
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        path-to-lcov: ./__tests__/coverage/
+        
