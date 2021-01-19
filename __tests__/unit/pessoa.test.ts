@@ -6,7 +6,7 @@ describe('Pessoa', () => {
 
         const bruno: Pessoa = new Pessoa('Bruno Palmito', 32);
 
-        expect(bruno.nome).toBe('Bruno Palmito');
+        expect(bruno.nome).toBe('Bruno Palmito.');
 
     })
 
