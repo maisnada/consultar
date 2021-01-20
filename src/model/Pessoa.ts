@@ -2,12 +2,13 @@ class Pessoa{
 
     nome:string;
     idade:number;
-    sonreNome:string;
-
+    
     constructor(nome:string, idade:number){
 
         this.nome = nome;
         this.idade = idade;
+
+        const oi:string;
     }
 
     anoNascimento(): number{
