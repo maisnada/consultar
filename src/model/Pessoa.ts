@@ -2,6 +2,7 @@ class Pessoa{
 
     nome:string;
     idade:number;
+    sonreNome:string;
 
     constructor(nome:string, idade:number){
 
